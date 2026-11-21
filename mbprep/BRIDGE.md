@@ -33,4 +33,4 @@ and Baileys cannot accept them. Make the channel in the app; after that, `newsle
 
 ## Ban safety
 
-The number is the founder's own. Pace any batch of creates at least 45 s apart, and never send messages through it.
+The number is the founder's own. Pace any batch of creates at least 45 s apart. Messages go through Evolution's own `/message/*` routes, spaced the same way, not through the bridge.

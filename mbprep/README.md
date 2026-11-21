@@ -27,7 +27,7 @@ our own use. Branch `mbprep/v2.3.7` starts at upstream tag `2.3.7` (Baileys `7.0
 
 ## Rules
 
-- Evolution only listens and files MBPrep messages. It never sends; updates to the founder go by Telegram.
+- Evolution reads and writes (messages, groups, communities, channels). Every write is spaced so WhatsApp does not restrict the number or take it for a bot; updates to the founder go by Telegram.
 - Only the founder's own number. Pace any batch of creates at least 45 s apart.
 
 ## Deploying
